@@ -1,0 +1,248 @@
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
+  admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %> 
+
+lana:
+  name: Lana Kane
+  email: hands@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+malory:
+  name: Malory Archer
+  email: boss@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+<% end %>  
+
+# malory1:
+#   name: Malory Archer1
+#   email: boss1@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory2:
+#   name: Malory Archer2
+#   email: boss2@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory3:
+#   name: Malory Archer3
+#   email: boss3@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory4:
+#   name: Malory Archer4
+#   email: boss4@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory5:
+#   name: Malory Archer5
+#   email: boss5@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>    
+  
+# malory6:
+#   name: Malory Archer6
+#   email: boss6@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory7:
+#   name: Malory Archer7
+#   email: boss7@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory8:
+#   name: Malory Archer8
+#   email: boss8@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory9:
+#   name: Malory Archer9
+#   email: boss9@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory10:
+#   name: Malory Archer10
+#   email: boss10@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>    
+  
+# malory11:
+#   name: Malory Archer11
+#   email: boss11@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory12:
+#   name: Malory Archer12
+#   email: boss12@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory13:
+#   name: Malory Archer13
+#   email: boss13@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory14:
+#   name: Malory Archer14 
+#   email: boss14@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory15:
+#   name: Malory Archer15
+#   email: boss15@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>    
+  
+# malory16:
+#   name: Malory Archer16
+#   email: boss16@example.gov 
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory17: 
+#   name: Malory Archer17
+#   email: boss17@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory18:
+#   name: Malory Archer18
+#   email: boss18@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory19:
+#   name: Malory Archer19
+#   email: boss19@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory20:
+#   name: Malory Archer20
+#   email: boss20@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>     
+  
+# malory21:
+#   name: Malory Archer21
+#   email: boss21@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory22:
+#   name: Malory Archer22
+#   email: boss22@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory23:
+#   name: Malory Archer23
+#   email: boss23@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory24:
+#   name: Malory Archer24
+#   email: boss24@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory25:
+#   name: Malory Archer25
+#   email: boss25@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>    
+  
+# malory26:
+#   name: Malory Archer26
+#   email: boss26@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory27:
+#   name: Malory Archer27
+#   email: boss27@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory28:
+#   name: Malory Archer28
+#   email: boss28@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory29:
+#   name: Malory Archer29
+#   email: boss29@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>
+
+# malory30:
+#   name: Malory Archer30
+#   email: boss30@example.gov
+#   password_digest: <%= User.digest('password') %>
+#   activated: true
+#   activated_at: <%= Time.zone.now %>    
+     
